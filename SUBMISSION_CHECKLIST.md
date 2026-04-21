@@ -132,9 +132,9 @@ docker compose down
 
 ## Скриншоты / видео
 
-- [ ] UI приложения
-- [ ] Grafana dashboard с данными
-- [ ] Loki logs
+- [ https://prnt.sc/TeY32BA0DPQO ] UI приложения
+- [ https://prnt.sc/TScV95bbFTIe ] Grafana dashboard с данными
+- [ https://prnt.sc/Y5_Ct4dz79U8 ] Loki logs
 - [ ] Sentry error
 
 (Приложи файлы или ссылки ниже)
