@@ -1,0 +1,22 @@
+{
+  "name": "signal-lab",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "pnpm": "^10.33.0",
+    "prisma": "6.19.3"
+  },
+  "scripts": {
+    "dev:frontend": "corepack pnpm --filter frontend dev",
+    "dev:backend": "corepack pnpm --filter backend start:dev",
+    "build": "corepack pnpm -r build",
+    "lint": "corepack pnpm -r lint",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f"
+  },
+  "dependencies": {
+    "@prisma/client": "6.19.3"
+  }
+}
